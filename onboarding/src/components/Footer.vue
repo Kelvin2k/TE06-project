@@ -4,13 +4,13 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 
 function goBack() {
-    router.push({ name: "Home" })
+    router.go(-1)
 }
 </script>
 <template>
     <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand header" @click="goBack">Home</a>
+            <a class="navbar-brand header" @click="goBack">Back</a>
         </div>
     </nav>
 </template>

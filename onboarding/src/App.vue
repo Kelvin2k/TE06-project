@@ -1,6 +1,7 @@
 <script setup>
-import Parking from './components/Parking.vue'
-import Home from './components/Home.vue'
+// import Parking from './components/Parking.vue'
+// import Home from './components/Home.vue'
+
 </script>
 
 <template>
@@ -19,7 +20,7 @@ header {
   margin: 0 auto 2rem;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -35,5 +36,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>

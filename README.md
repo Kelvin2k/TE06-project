@@ -1,3 +1,5 @@
+HOW TO RUN
+
 after cloning, if using powershell need to change to command prompt
 get into the colder then run the following codes:
 
